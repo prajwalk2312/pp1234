@@ -11,4 +11,4 @@ COPY index.html /var/www/html/
 CMD ["/usr/sbin/httpd","-D","FOREGROUND"]
 
 # Expose port 80 to allow incoming HTTP traffic to the container
-EXPOSE 80￼Enter
+EXPOSE 80
