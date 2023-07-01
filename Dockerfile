@@ -1,5 +1,5 @@
 # Use the official CentOS 7 base image
-FROM centos:centos7
+FROM php8.2
 
 # Install the Apache HTTP server package from the CentOS repository
 RUN yum install httpd -y
